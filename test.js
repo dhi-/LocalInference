@@ -16,7 +16,7 @@ var acorn_options = {
 var inference = require('./index');
 
 
-var testString = 'var a = 10;var b=a;';
+var testString = 'var a = 10;var b=a;var c = a+b';
 
 
 var ast = parse(testString, acorn_options);
